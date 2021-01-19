@@ -2,16 +2,12 @@
 # Basic Math          #
 #######################
 
-"""
-여기서 간단한 수학을 하는 프로그램을 만들것입니다. 
-"""
-
 
 def get_greatest(number_list):
     number_list.sort()
     greatest_number = number_list[-1]
 
-    return print(greatest_number)
+    return greatest_number
 
 
 def get_smallest(number_list):
